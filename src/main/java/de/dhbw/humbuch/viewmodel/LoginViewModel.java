@@ -22,6 +22,11 @@ import de.dhbw.humbuch.model.entity.User;
 import de.dhbw.humbuch.util.PasswordHash;
 import de.dhbw.humbuch.view.MainUI;
 
+/**
+ * @author Johannes Idelhauser
+ * @author David Vitt
+ *
+ */
 public class LoginViewModel {
 
 	private final static Logger LOG = LoggerFactory.getLogger(MainUI.class);

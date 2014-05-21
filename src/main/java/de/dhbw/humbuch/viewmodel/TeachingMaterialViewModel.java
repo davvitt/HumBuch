@@ -23,6 +23,8 @@ import de.dhbw.humbuch.model.entity.Category;
 import de.dhbw.humbuch.model.entity.TeachingMaterial;
 
 /**
+ * Provides {@link State}s and mehtods for creating, deleting and updating {@link TeachingMaterial}s.
+ * 
  * @author David Vitt
  *
  */

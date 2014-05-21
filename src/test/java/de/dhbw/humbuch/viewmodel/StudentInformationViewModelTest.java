@@ -49,7 +49,7 @@ public class StudentInformationViewModelTest extends BaseTest {
 		Student student2 = new Student.Builder(5, "Bianca", "Castafiore", null, grade).build();
 		students.add(student1);
 		students.add(student2);
-		vm.persistStudents(students, fullImport);
+		vm.importStudents(students, fullImport);
 	}
 	
 	private void importThreeStudents(){
@@ -61,7 +61,7 @@ public class StudentInformationViewModelTest extends BaseTest {
 		students.add(student1);
 		students.add(student2);
 		students.add(student3);
-		vm.persistStudents(students, true);
+		vm.importStudents(students, true);
 	}
 	
 	private void overrideStudentWithId(int id){
@@ -69,7 +69,7 @@ public class StudentInformationViewModelTest extends BaseTest {
 		List<Student> students = new ArrayList<Student>();
 		Student student1 = new Student.Builder(id, "Balduin", "Bienlein", null, grade).build();
 		students.add(student1);
-		vm.persistStudents(students, true);
+		vm.importStudents(students, true);
 	}
 
 	@Before

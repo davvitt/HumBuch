@@ -21,11 +21,13 @@ import de.dhbw.humbuch.model.DAO;
 import de.dhbw.humbuch.model.entity.BorrowedMaterial;
 import de.dhbw.humbuch.model.entity.Category;
 import de.dhbw.humbuch.model.entity.TeachingMaterial;
+import de.dhbw.humbuch.view.TeachingMaterialView;
 
 /**
- * Provides {@link State}s and mehtods for creating, deleting and updating {@link TeachingMaterial}s.
+ * Provides {@link State}s and methods to the {@link TeachingMaterialView} for creating, deleting and updating {@link TeachingMaterial}s.
  * 
  * @author David Vitt
+ * @author Martin Wentzel
  *
  */
 public class TeachingMaterialViewModel {
@@ -112,7 +114,7 @@ public class TeachingMaterialViewModel {
 	 * by a student.
 	 * 
 	 * @param teachingMaterial
-	 *            the teacing material to be updated or deleted
+	 *            the teaching material to be updated or deleted
 	 */
 	@HandlesAction(DoDeleteTeachingMaterial.class)
 	public void doDeleteTeachingMaterial(TeachingMaterial teachingMaterial) {

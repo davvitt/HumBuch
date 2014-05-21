@@ -6,8 +6,6 @@ package de.dhbw.humbuch.model.entity;
  */
 public enum Subject {
 	
-	@Deprecated
-	ENGLISH("Englisch"),
 	STANDARD("Standard"),
 	FRENCH2("Französisch 2"),
 	FRENCH3("Französisch 3"),
